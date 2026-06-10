@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documente Contabile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>📊 Documente Contabile</h1>
+    <p>Apasă pe un document pentru detalii</p>
+</header>
+
+<main>
+
+<section class="cards">
+
+    <div class="card" onclick="showInfo('factura')">
+        🧾 Factura
+    </div>
+
+    <div class="card" onclick="showInfo('chitanta')">
+        💰 Chitanța
+    </div>
+
+    <div class="card" onclick="showInfo('bon')">
+        🛒 Bon Fiscal
+    </div>
+
+    <div class="card" onclick="showInfo('ordin')">
+        🏦 Ordin de Plată
+    </div>
+
+</section>
+
+<section id="infoBox">
+    <h2>Bine ai venit!</h2>
+    <p>Selectează un document pentru a vedea explicația.</p>
+</section>
+
+</main>
+
+<script src="script.js"></script>
+
+</body>
+</html>
